@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Eileenpk/Manage)
-- Live Site URL: [live site](https://manage-three-rho.vercel.app/)
+- Live Site URL: [live site](manage-bsjso738u-eileenpk.vercel.app)
 
 ### Built with
 
