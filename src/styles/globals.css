@@ -222,7 +222,7 @@ button {
     align-items: center;
 }
   body {
-    background-image: url(/desktop-top-background-img.png), url(/desktop-bottom-background-img.png);
+    background-image: url(/images/desktop-top-background-img.png), url(/images/desktop-bottom-background-img.png);
     background-position: top right, bottom 25rem left;
     background-repeat: no-repeat, no-repeat;
     padding: 0 2.8125rem 0 2.8125rem;

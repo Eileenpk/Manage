@@ -1,6 +1,6 @@
 # Frontend Mentor - Manage landing page
 
-![Design preview for the Manage landing page coding challenge](../../public/images/desktop-preview.jpg)
+![Design preview for the Manage landing page coding challenge](https://github.com/Eileenpk/Manage/blob/main/public/images/desktop-preview.jpg)
 
 ## Table of contents
 
@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![screen shot of full screen webpage]()
-![screen shot of mobile webpage]()
+![screen shot of full screen webpage](https://github.com/Eileenpk/Manage/blob/main/public/images/desktop.png)
+![screen shot of mobile webpage](https://github.com/Eileenpk/Manage/blob/main/public/images/mobile.png)
 ### Links
 
-- Solution URL: [GitHub]()
-- Live Site URL: [live site]()
+- Solution URL: [GitHub](https://github.com/Eileenpk/Manage)
+- Live Site URL: [live site](https://manage-three-rho.vercel.app/)
 
 ### Built with
 
