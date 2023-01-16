@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    padding:2.8125rem 1.5rem 3rem;
+    padding:2.8125rem 1.5rem 0 3rem;
     background-image: url(/images/top-background-img.png), url(/images/bottom-background-img.png);
     background-repeat: no-repeat;
     background-position: top right, bottom right;
@@ -25,6 +25,14 @@
 .introImg {
     margin: auto;
     margin-top: 3rem;
+}
+
+.header:has(.navWindow) {
+    position: relative;
+    content: '';
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.33%, rgba(0, 0, 0, 0.599049) 99.79%);
+    ;
 }
 
 .navList {
@@ -54,7 +62,7 @@
     width: 69.375rem;
     max-width: 90vw;
     background-image: none;
-    padding: 3.5rem 0 7.5rem 0;
+    padding: 3.5rem 0 6.25rem 0;
   }
 
   .navBtn {
@@ -63,6 +71,11 @@
   .navWindow {
     width: 100%;
   }
+
+  .header:has(.navWindow) {
+    position: static;
+    background: none;
+}
 
   .navList {
     display: flex;

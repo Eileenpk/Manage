@@ -49,17 +49,13 @@
 /* Desktop media query */
 @media (min-width: 43.8125rem) {
   .main {
-      /* display: grid;
-      grid-template-areas:
-      "info outerList"
-      "reviews reviews"; */
       flex-direction: row;
       align-items: flex-start;
       justify-content: space-between;
       flex-wrap: wrap;
   }
   .outerList {
-      margin-bottom: 9.125rem;
+      margin-bottom: 6rem;
   }
 
   .subHeading {

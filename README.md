@@ -34,7 +34,6 @@ Users should be able to:
 ### Built with
 
 - [Semantic HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - HTML5 with clear and descriptive tags for better accessibility and search engine optimization
-- [Tailwind](https://tailwindcss.com/) - A utility-first CSS framework
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
