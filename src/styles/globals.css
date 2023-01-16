@@ -206,7 +206,7 @@ button {
 }
   body {
     background-image: url(/images/desktop-top-background-img.png), url(/images/desktop-bottom-background-img.png);
-    background-position: top right, bottom 600px left;
+    background-position: top right, bottom 42.5625rem left;
     background-repeat: no-repeat, no-repeat;
     padding: 0 2.8125rem 0 2.8125rem;
     overflow-x: hidden;

@@ -74,4 +74,8 @@
   .listDescription {
       margin-left: 5.9375rem;
   }
+  
+  .listDescription:last-of-type {
+    margin-bottom: 2.125rem;
+  }
 }

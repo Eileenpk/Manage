@@ -75,6 +75,10 @@
   }
 
 @media(min-width: 43.75rem) {
+    .heading {
+      margin-bottom: 4.4375rem;
+    }
+
     .slide {
         margin-bottom: 3rem;
     }
