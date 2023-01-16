@@ -8,22 +8,22 @@ export default function Reviews() {
 
   const reviewArray = [
     {
-      path: "/../public/images/avatar-anisha.png",
+      path: "/images/avatar-anisha.png",
       name: "Anisha Li",
       review: `“Manage has supercharged our team's workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”`,
     },
     {
-      path: "/../public/images/avatar-ali.png",
+      path: "/public/images/avatar-ali.png",
       name: "Ali Bravo",
       review: `“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”`,
     },
     {
-      path: "/../public/images/avatar-richard.png",
+      path: "/public/images/avatar-richard.png",
       name: "Richard Watts",
       review: `“Manage allows us to provide structure and process. It keeps us organized and focused. I can't stop recommending them to everyone I talk to!”`,
     },
     {
-      path: "/../public/images/avatar-shanai.png",
+      path: "/public/images/avatar-shanai.png",
       name: "Shanai Gough",
       review: `“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”`,
     },
