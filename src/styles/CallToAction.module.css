@@ -1,0 +1,50 @@
+.section {
+    width: 100%;
+    background: var(--second-color);
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+    padding: 5.6875rem;
+    background-image: url(/images/callToAction-background-mobile.svg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    width: 19.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    color: var(--main-color);
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+    letter-spacing: -0.0625rem;
+    
+    margin-bottom: 1.8125rem;
+}
+
+@media (min-width: 43.75rem) {
+    .section {
+        height: 13.75rem;
+        flex-direction: row;
+        justify-content: center;
+        background-image: url(/images/callToAction-background-right.png), url(/images/callToAction-background-left.png);
+        background-position: top right, bottom left 25rem;
+        background-repeat: no-repeat, no-repeat;
+    }
+
+    .wrapper {
+        width: 69.625rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .heading {
+        margin: 0;
+        width: 27.8125rem;
+    }
+}

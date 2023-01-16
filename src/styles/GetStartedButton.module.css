@@ -1,0 +1,38 @@
+.btn {
+    background: var(--second-color);
+    color: var(--main-color);
+    width: 8.5625rem;
+    height: 2.75rem;
+    border: none;
+    border-radius: 1.375rem;
+    margin-left: calc(50% - 8.5625rem / 2);
+}
+
+/* Btn styles */
+.btnLight {
+    background: var(--main-color);
+    color: var(--second-color);
+    width: 8.5625rem;
+    height: 2.75rem;
+    border: none;
+    border-radius: 1.375rem;
+  }
+
+  @media (min-width: 43.8125rem) {
+    /* Btn styles */
+    .btn {
+      background: var(--second-color);
+      color: var(--main-color);
+      width: 8.5625rem;
+      height: 2.75rem;
+      border: none;
+      border-radius: 1.375rem;
+      margin-left: 86%;
+      margin-top: -10.875rem;
+  }
+
+  p + .btn {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+  }

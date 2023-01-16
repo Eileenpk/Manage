@@ -1,0 +1,107 @@
+.heading {
+    margin-bottom: 5.875rem;
+}
+
+.carouselContainer {
+    width: 96vw;
+    margin-bottom: 2.9375rem;
+    overflow: hidden;
+}
+
+.slide {
+    background: var(--forth-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    max-height: 15.5rem ;
+    max-width: 33.75rem;
+    animation-name: slideRight;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+.avatar {
+    margin-top: -2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.reviewersName {
+    margin-bottom: 1.1875rem;
+}
+
+.reviewText {
+    margin-bottom: 4.25rem;
+    width: 18.625rem;
+}
+
+.indexIndicatorCircleContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.indexIndicatorCircle {
+    width: 0.4375rem;
+    height: 0.4375rem;
+    border: 0.0625rem solid var(--second-color);
+    border-radius: 50%;
+}
+
+.indexIndicatorCircle:not(:first-of-type) {
+    margin-left: 0.3125rem;
+}
+
+.circleFilledIn {
+    background: var(--second-color);
+}
+
+@keyframes slideRight {
+    from {
+      margin-left: -100%;
+    }
+    25% {
+      margin-left: 5%;
+    }
+    50% {
+      margin-left: 5%;
+    }
+    75% {
+      margin-left: 5%;
+      }
+    to {
+      margin-left: 100%;
+      }
+  }
+
+@media(min-width: 43.75rem) {
+    .slide {
+        margin-bottom: 3rem;
+    }
+    .btnContainer {
+        margin-right: 50%;
+        margin-bottom: 11.25rem;
+    }
+
+    .reviewText {
+        width: 28.75rem;
+    }
+    @keyframes slideRight {
+        from {
+          margin-left: -100%;
+        }
+        25% {
+          margin-left: 25%; 
+        }
+        50% {
+          margin-left: 25%;
+        }
+        75% {
+          margin-left: 25%;
+          }
+        to {
+          margin-left: 100%;
+          }
+      }
+
+}
