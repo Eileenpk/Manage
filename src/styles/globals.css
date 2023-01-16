@@ -73,7 +73,7 @@ p, h1, h2, h3, h4, h5, h6 {
     --third-color: #242D52;
     --heading-color: #F3603C;
   }
-} 
+}  
 
 @media (prefers-color-scheme: dark) {
   html {

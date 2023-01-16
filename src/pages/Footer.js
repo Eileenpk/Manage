@@ -59,7 +59,7 @@ export default function Footer() {
             <div className={styles.error}>Please insert a valid email</div>
           )}
         </form>
-        <section className={styles.linksContainerOuter}>
+        <div className={styles.linksContainerOuter}>
           <div className={styles.linksContainerInner}>
             <a href="/" className={styles.link}>
               Home
@@ -85,42 +85,42 @@ export default function Footer() {
               Privacy Policy
             </a>
           </div>
-        </section>
-        <section className={styles.socialLinksContainer}>
+        </div>
+        <div className={styles.socialLinksContainer}>
           <div className={styles.socialLinksWrapper}>
             <a href="/" className={styles.socialLinks}>
               {width > 700 ? (
-                <Image width={20} height={20} src={facebookIcon} />
+                <Image width={20} height={20} src={facebookIcon} alt='Facebook icon' />
               ) : (
-                <Image width={32} height={32} src={facebookIcon} />
+                <Image width={32} height={32} src={facebookIcon} alt='Facebook icon' />
               )}
             </a>
             <a href="/" className={styles.socialLinks}>
               {width > 700 ? (
-                <Image width={20} height={20} src={youTubeIcon} />
+                <Image width={20} height={20} src={youTubeIcon} alt='youtube icon'/>
               ) : (
-                <Image width={32} height={32} src={youTubeIcon} />
+                <Image width={32} height={32} src={youTubeIcon} alt='youtube icon' />
               )}
             </a>
             <a href="/" className={styles.socialLinks}>
               {width > 700 ? (
-                <Image width={20} height={20} src={twitterIcon} />
+                <Image width={20} height={20} src={twitterIcon} alt='twitter icon'/>
               ) : (
-                <Image width={32} height={32} src={twitterIcon} />
+                <Image width={32} height={32} src={twitterIcon} alt='twitter icon' />
               )}
             </a>
             <a href="/" className={styles.socialLinks}>
               {width > 700 ? (
-                <Image width={20} height={20} src={pinterestIcon} />
+                <Image width={20} height={20} src={pinterestIcon} alt='pinterest icon'/>
               ) : (
-                <Image width={32} height={32} src={pinterestIcon} />
+                <Image width={32} height={32} src={pinterestIcon} alt='pinterest icon'/>
               )}
             </a>
             <a href="/" className={styles.socialLinks}>
               {width > 700 ? (
-                <Image width={20} height={20} src={instagramIcon} />
+                <Image width={20} height={20} src={instagramIcon} alt='instagram icon'/>
               ) : (
-                <Image width={32} height={32} src={instagramIcon} />
+                <Image width={32} height={32} src={instagramIcon} alt='instagram icon'/>
               )}
             </a>
           </div>
@@ -130,6 +130,7 @@ export default function Footer() {
               height={26}
               src={logoLight}
               className={styles.logo}
+              alt='manage logo'
             />
           ) : (
             <Image
@@ -137,9 +138,10 @@ export default function Footer() {
               height={24}
               src={logoLight}
               className={styles.logo}
+              alt='manage logo'
             />
           )}
-        </section>
+        </div>
         <p className={styles.copyright}>Copyright 2020. All Rights Reserved</p>
       </section>
     </footer>
